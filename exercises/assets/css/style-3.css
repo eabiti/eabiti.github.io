@@ -95,7 +95,7 @@ h1 {
     margin-top: 32px;
     margin-bottom: 16px;
     line-height: 1.2;
-    font-family: var(--font-serif);
+   
 }
 
 h2 {
@@ -109,14 +109,13 @@ h2 {
     font-size: var(--fs-xl);
     line-height: 1.2;
     margin-bottom: 6px;
-    /* applies only to h2 inside header */
-    header h2 {font-weight: normal ;font-style: italic }
-     /* applies only to h2 inside header */
-     section h2 {letter-spacing: -1px } 
-
+   
     
 }
-
+/* applies only to h2 inside header */
+header h2 {font-weight: normal ;font-style: italic }
+/* applies only to h2 inside header */
+section h2 {letter-spacing: -1px } 
 h3 {
     font-size: var(--fs-md);
     margin-top: 48px; 

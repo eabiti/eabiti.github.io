@@ -109,6 +109,7 @@ h2 {
     margin-bottom: 16px;
     font-family: var(--font-serif); 
     letter-spacing: -1px;
+    text-transform: uppercase;
 }
 
 h3 {
@@ -123,6 +124,7 @@ p {
 	font-size: var(--fs-base);
     line-height: 1.7;
 	margin-bottom: 12px;
+    font-family: var(--font-sans);
 }
 
 
