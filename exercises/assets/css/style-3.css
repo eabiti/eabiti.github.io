@@ -89,24 +89,32 @@ section > * { max-width: 1600px }
 section > * { max-width: 1600px; margin-left: auto; margin-right: auto }
 
 /* ============= TYPOGRAPHY ============ */
-
+body{font-family: var(--font-serif);}
 h1 {
     font-size: var(--fs-xxxl);
     margin-top: 32px;
     margin-bottom: 16px;
     line-height: 1.2;
+    font-family: var(--font-serif);
 }
 
 h2 {
     font-size: var(--fs-xl);
     line-height: 1.2;
     margin-bottom: 6px;
+    
 }
 
 h2 {
     font-size: var(--fs-xl);
     line-height: 1.2;
     margin-bottom: 6px;
+    /* applies only to h2 inside header */
+    header h2 {font-weight: normal ;font-style: italic }
+     /* applies only to h2 inside header */
+     section h2 {letter-spacing: -1px } 
+
+    
 }
 
 h3 {
@@ -117,7 +125,7 @@ h3 {
 }
 
 p {
-	font-size: var(--fs-base);
+	font-size: var(--fs-md);
     line-height: 1.7;
 	margin-bottom: 12px;
 }
