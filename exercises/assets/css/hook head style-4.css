@@ -1,0 +1,75 @@
+/* === CSS Reset === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* === Custom Properties === */
+:root {
+    /* Font Stacks */
+    --font-serif: "Georgia, 'Times New Roman', Times, serif";
+    --font-sans: "Arial, 'Helvetica Neue', Helvetica, sans-serif";
+    
+    /* Fluid Font Sizes */
+    --font-size-h1: clamp(2rem, 4vw, 3rem);
+    --font-size-h2: clamp(1.5rem, 3.5vw, 2.5rem);
+    --font-size-p: clamp(1rem, 2.5vw, 1.2rem);
+}
+
+/* === Global Styles === */
+body {
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* === Header Styling === */
+header {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: var(--font-size-h1);
+    font-family: var(--font-serif);
+}
+
+header h2 {
+    font-size: var(--font-size-h2);
+}
+
+/* === Section Styling === */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: var(--font-size-h2);
+    font-family: var(--font-serif);
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: var(--font-size-p);
+    margin-bottom: 15px;
+}
+
+/* === Responsive Design === */
+@media (min-width: 768px) {
+    header {
+        padding: 40px;
+    }
+
+    section {
+        padding: 30px;
+    }
+}
