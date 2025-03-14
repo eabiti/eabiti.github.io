@@ -1,0 +1,123 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-serif);
+    line-height: 1.6;
+    background-color: #f7f7f7;
+    padding: 10px;
+}
+
+/* Header Styles */
+header {
+    
+    background-color: #1613d7;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    font-style: italic;
+    accent-color : rgb(234, 234, 242)
+}
+
+/* Main Section Styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4% 10% 4% 10%;
+}
+
+/* Section Styles */
+section {
+    background-color: #fbfbfb;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #faf7f7;
+}
+
+section p {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1.5;
+}
+section a {
+    color: #320ae2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* On-Page SEO Section Styles */
+section:nth-child(1) {
+    background-color: #4f83b8;  /* Light Blue for On-Page */
+    animation: forwards;
+}
+
+/* Off-Page SEO Section Styles */
+section:nth-child(2) {
+    background-color: #30da36;  /* white for Off-Page */
+    animation: forwards;
+}
+
+/* Technical SEO Section Styles */
+section:nth-child(3) {
+    background-color: #2f11c4;  /* white for Technical SEO */
+    
+}
+
+/* Content Marketing Section Styles */
+section:nth-child(4) {
+    background-color: #ad19b5;  /* Default background */
+    
+    
+}
+
+/* Section Header Styling */
+section h2 {
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 1.2rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section p {
+        font-size: 0.9rem;
+    }
+}
