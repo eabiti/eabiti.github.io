@@ -97,6 +97,7 @@ body{
      text-align: center;
     }
     
+    body { background-color: lightgreen; }
 h1 {
     font-size: var(--fs-xxxl);
     line-height: 1.2;
@@ -127,3 +128,4 @@ p {
 	margin-bottom: 12px;
 }
 
+a { color: darkgreen; }
