@@ -276,19 +276,19 @@ h1, h2, h2 { color: var(--green-700) }
 
 section *:last-child { margin-bottom: 0 !important }
 
-body { font-family: var(--font-sans) }
-
 /* Main heading */
 h1 {
+    font-family: "Boldonse", sans-serif;
 	font-weight: bold;
     font-size: var(--fs-xxl);
     line-height: 1.1;    
     margin-bottom: 30px;
     text-align: center;
-    letter-spacing: -2px
+    letter-spacing: -1px
 }
 
 header p { 
+    font-family: "Lato", sans-serif;
     font-size: var(--fs-md);
     color: var(--green-900) ;
     text-align: center;
@@ -297,6 +297,7 @@ header p {
 
 /* Small headings */
 h2 {
+    font-family: "oswal", sans-serif;
     font-weight: bold;
     font-size: var(--fs-xl);
     line-height: 1.2;    
@@ -308,6 +309,7 @@ section h2:nth-child(1) { margin-top: 0 }
 
 /* Text paragraphs */
 p {
+    font-family: "Lato", sans-serif;
     font-size: calc(var(--fs-base)* 1.1);
     color: #000;
     line-height: 1.6;
@@ -321,9 +323,22 @@ p {
     width: fit-content;
 }
 img { 
-       
-    margin-bottom: 24px;
+   margin-bottom: 24px;
     border-radius: 25px 
-  }
+}
 
-  a{color: #08b29e;}
+ /* ======== HYPERLINKS ======== */
+a:link, a:visited {
+    color: var(--green-800); 
+    transition: all 0.3s ease;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--green-800);
+    text-underline-offset: 6px;
+}
+
+a:hover, a:focus, a:active {
+    color: var(--rose-600);
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--rose-600);
+    text-underline-offset: 6px;
+}
