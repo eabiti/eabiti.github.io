@@ -1,0 +1,128 @@
+/* Industry-standard resets */
+* {
+    margin: 4;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Custom font stacks */
+  :root {
+    --font-serif: Georgia, "Times New Roman", Times, serif;
+    --font-sans: "Helvetica Neue", Arial, sans-serif;
+    --green-800: white; /* Define a white color */
+    --rose-600: #FF007F; /* Define a rose color */
+  }
+  
+  /* Responsive padding for header and section */
+  header, section {
+    padding: 5%;
+  }
+  
+  @media (min-width: 768px) {
+    header, section {
+      padding: 2% 20%;
+    }
+}
+    body { background-color: #07705f; }
+/* Header styles */
+  header h1 {
+    margin-bottom: 2%;
+    font-size: clamp(2.90rem, 3.36vw + 2.06rem, 4.75rem);
+    font-family: var(--font-sans);
+    letter-spacing: -3px;
+    color: aliceblue;
+    word-spacing: normal;
+    
+
+    
+  }
+  
+  header h2 {
+
+    font-size: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);
+    font-weight: normal;
+    font-style: italic;
+    font-family: var(--font-sans);
+    letter-spacing: -1px;
+    color: aliceblue;
+  }
+  
+  /* Section styles */
+  section h2 {
+    margin-bottom: 0.5rem;
+    font-size: clamp(1.76rem, 1.40vw + 1.40rem, 2.53rem);
+    font-family: var(--font-sans);
+    letter-spacing: -1px;
+    color: aliceblue;
+    
+    }
+    section h3 {
+        margin-bottom: 0.5rem;
+        font-size: clamp(1.50rem, 1.20vw + 1.20rem, 2.00rem);
+        font-family: var(--font-sans);
+        color: aliceblue;
+     }
+  
+  section p {
+    margin-bottom: 1rem;
+    font-size: clamp(1.15rem, 0.39vw + 1.05rem, 1.48rem);
+    line-height: 1.45;
+    font-family: var(--font-serif);
+    color: aliceblue;
+}
+    
+ .highlight-text{
+    background-color: rgb(43, 174, 191);
+    color: rgb(251, 249, 249);
+    padding: 3px 12px 6px 12px;
+    width: fit-content;
+    
+  }
+  /* Style for unordered lists */
+ul {
+    list-style-type: square; /* Changes default bullet points to squares */
+    padding-left: 20px; /* Adjusts indentation */
+    font-size: x-large;
+  }
+  
+  /* Style for ordered lists */
+  ol {
+    list-style-type: decimal; /* Numbers for ordered lists */
+    padding-left: 20px;
+    font-size: x-large;
+  }
+  /* Customizing list items */
+  ul li, ol li {
+    font-size: 20px;
+    color: white; /* Changes text color */
+    margin-bottom: 5px; /* Adds space between list items */
+    
+    
+}
+
+/* ======== HYPERLINKS ======== */
+a:link, a:visited {
+  color: var(--green-800); 
+  transition: all 0.3s ease;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--green-800);
+  text-underline-offset: 6px;
+  text-align: center;
+
+  
+}
+a:hover, a:focus, a:active {
+  color: var(--rose-600);
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--rose-600);
+  text-underline-offset: 6px;
+ 
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 2px;
+  margin-bottom: auto;
+  box-shadow: #07705f 0px opx 10 px;
+}
