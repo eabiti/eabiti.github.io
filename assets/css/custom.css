@@ -1,5 +1,4 @@
 
-
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
 nav.theme-light a#btn-cta:focus,
 nav.theme-light a#btn-cta:hover,
@@ -83,7 +82,16 @@ footer.theme-dark > ul.footer-icons li a:hover i,
 footer.theme-dark > ul.footer-icons li a:active i { color: var(--black-000) }
 
 footer.theme-dark .copyright { background-color: var(--black-000) }
-
+footer.theme-dark > h2{
+  font-family: "birthstone";
+  font-weight: 400;
+  font-style: normal;
+}
+footer.theme-dark> h3  {
+  font-family: "birthstone";
+  font-weight: 400;
+  font-style: normal;
+}
 
 .theme-light.section-selector-1 #btn-submit { background-color: var(--green-900) }
 .theme-light.section-selector-1 #btn-submit { background-color: var(--green-900) }
@@ -92,3 +100,38 @@ footer.theme-dark .copyright { background-color: var(--black-000) }
 .theme-light.section-selector-1 #btn-submit:hover,
 .theme-light.section-selector-1 #btn-submit:active { color: var(--black-000) }
 
+    header h2{
+    font-family: "birthstone";
+    font-weight: 400;
+    font-style: normal;
+    text-decoration-thickness: bold;
+    color: black
+    
+  }
+  .headline h2 {
+    letter-spacing: 5px; /* Adjust as needed */
+  }
+  
+
+  
+
+.section-selector-1.theme-light h3{
+    font-size: xx-large;
+    letter-spacing: 2px;
+    font-family: "imperial", "birthstone";
+    font-weight: 400;
+    font-style: normal,
+    
+    
+    
+}
+
+.section-selector-1.theme-light { background-color: var(--green-200) }
+.section-selector-1 .col-1 h3 { color: var(--black-000) }
+
+
+header.theme-light h2{
+  font-family: "birthstone";
+  font-weight: 400;
+  letter-spacing: 2px;
+}
