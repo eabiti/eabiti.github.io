@@ -205,3 +205,6 @@ header.theme-light h2{
 .theme-dark a:not(.btn):active {
   color: var(--white-000);
 }
+a[href*="wa.me"]:hover i {
+  color: white !important;
+}
