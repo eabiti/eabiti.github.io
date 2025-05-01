@@ -141,13 +141,16 @@ footer.theme-dark> h3  {
     font-style: normal,}
 
 .section-selector-1.theme-light { background-color: var(--pink-600) }
-.section-selector-1 .col-1 h3 { color: var(--white-000) }
+.section-selector-1 .col-1 h3 { color: var(--white-000); 
+ 
+}
 
 
 header.theme-light h2{
-  font-family: "birthstone";
+  font-family: "roboto" ;
   font-weight: 400;
   letter-spacing: 2px;
+  font-size: large;
 }
 .theme-light.section-selector-1 #btn-submit { background-color: var(--trend-600) }
 .theme-light.section-selector-1 #btn-submit:focus,

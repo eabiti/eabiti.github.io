@@ -26,7 +26,28 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Imperial+Script&display=swap" rel="stylesheet">
-     
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<style>
+    .mobile-header-img {
+        display: none;
+    }
+
+    @media (max-width: 768px) {
+        .mobile-header-img {
+            display: block;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Hide desktop image on small screens */
+        .slide-in-right-desktop {
+            display: none;
+        }
+    }
+</style>
 
     <!-- Font Awesome 6 icons. Delete if not using. -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -86,11 +107,18 @@
                 <li><a href="store/index.html">Store</a></li>
                 <li><a class="btn btn-solid btn-soft" id="btn-cta" href="contact/index.html"><span>Contact</span> <i class="fa-regular fa-envelope"></i></a></li>
             </ul>
-        </div></div></nav>
+        </div>
+    </div>
+    </nav>
     
            <!-- header starts here -->
-    
+
+
+
         <header class="theme-light cols-2-half text-center-mobile">
+            <div class="mobile-header-img">
+                <img src="assets/img/web designer.jpg" alt="Mobile Header Image">
+            </div>
     
             <div class="col-2 col-text">
                 <div class="badge">WELCOME</div>
