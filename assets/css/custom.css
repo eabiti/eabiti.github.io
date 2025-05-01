@@ -183,6 +183,25 @@ header.theme-light h2{
   text-decoration-color: var(--white-000);
 }
 
+.theme-light .btn-plain:active {
+  color: var(--slate-400);
+}
+.theme-light a:not(.btn):link,
+.theme-light a:not(.btn):visited {
+  color: var(--trend-600);
+}
+.theme-light a:not(.btn):focus,
+.theme-light a:not(.btn):hover,
+.theme-light a:not(.btn):active {
+  color: var(--white-000);
+}
 
-
-
+.theme-dark a:not(.btn):link,
+.theme-dark a:not(.btn):visited {
+  color: var(--trend-600);
+}
+.theme-dark a:not(.btn):focus,
+.theme-dark a:not(.btn):hover,
+.theme-dark a:not(.btn):active {
+  color: var(--white-000);
+}
