@@ -211,3 +211,8 @@ header.theme-light h2{
 a[href*="wa.me"]:hover i {
   color: white !important;
 }
+
+.theme-dark a[href*="/legal"],
+.theme-dark a[href*="/privacy"] {
+  color: var(--trend-600) !important;
+}
